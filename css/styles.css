@@ -1,0 +1,62 @@
+
+
+input[type="text"] {
+	width: 400px;
+	height: 35px;
+	border: none; /* <-- This thing here */
+    border:solid 1px #797878;
+    border-radius: 10px;
+	margin: 20px;
+	padding-left: 8px;
+}
+
+
+
+input[placeholder="Search(16pt)"] {
+	text-align: left;
+	font-size: 0.75em;
+}
+
+header .input-div {
+	text-align: center;
+	margin: 0 auto; 
+	
+}
+
+.container .pic-column {
+	margin-top: 30px;
+	
+}
+
+
+
+.container  {
+	display:flex;
+
+}
+
+.pic-column, .pic-column2,.pic-column3 {
+	flex:1;
+	margin: 3% 3%;
+}
+
+
+
+div[class^="pic"] img {
+	filter: grayscale(100%);
+	transition: 1.0s;
+}
+
+div[class^="pic"] img:hover {
+	filter: grayscale(0);
+	transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
