@@ -1,4 +1,4 @@
-
+ 
 
 input[type="text"] {
 	width: 400px;
@@ -38,6 +38,7 @@ header .input-div {
 .pic-column, .pic-column2,.pic-column3 {
 	flex:1;
 	margin: 3% 3%;
+
 }
 
 div[class^="pic"] img {
